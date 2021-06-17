@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name Connector)(type KiCad)(uri C:/Users/smco5/GoogleDrive/TechProjects/KiCadRepo/kicad-custom-lib/modules/Connector.pretty)(options "")(descr ""))
+  (lib (name Fuse)(type KiCad)(uri C:/Users/smco5/GoogleDrive/TechProjects/KiCadRepo/kicad-custom-lib/modules/Fuse.pretty)(options "")(descr ""))
+  (lib (name Terminal)(type KiCad)(uri C:/Users/smco5/GoogleDrive/TechProjects/KiCadRepo/kicad-custom-lib/modules/Terminal.pretty)(options "")(descr ""))
+  (lib (name SuperRegulator)(type KiCad)(uri C:/Users/smco5/GoogleDrive/TechProjects/KiCadRepo/kicad-custom-lib/modules/SuperRegulator.pretty)(options "")(descr ""))
+  (lib (name Logo_OUXT)(type KiCad)(uri ${KIPRJMOD}/Logo_OUXT.pretty)(options "")(descr ""))
+)
