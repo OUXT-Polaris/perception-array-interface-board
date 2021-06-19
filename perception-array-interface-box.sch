@@ -53,7 +53,7 @@ P 6250 1500
 F 0 "U1" H 6250 1742 50  0000 C CNN
 F 1 "K7805-2000R3" H 6250 1651 50  0000 C CNN
 F 2 "SuperRegulator:K78xx-2000R3" H 6250 1725 50  0001 C CIN
-F 3 "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" H 6250 1450 50  0001 C CNN
+F 3 "https://docs.rs-online.com/fc3c/A700000006631878.pdf" H 6250 1450 50  0001 C CNN
 	1    6250 1500
 	1    0    0    -1  
 $EndComp
@@ -64,7 +64,7 @@ P 6250 2600
 F 0 "U2" H 6250 2842 50  0000 C CNN
 F 1 "K7812-2000R3L" H 6250 2751 50  0000 C CNN
 F 2 "SuperRegulator:K78xx-2000R3L" H 6250 2825 50  0001 C CIN
-F 3 "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" H 6250 2550 50  0001 C CNN
+F 3 "https://docs.rs-online.com/fc3c/A700000006631878.pdf" H 6250 2550 50  0001 C CNN
 	1    6250 2600
 	1    0    0    -1  
 $EndComp
