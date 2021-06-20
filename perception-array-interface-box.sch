@@ -553,17 +553,6 @@ F 3 "~" H 10450 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H10
-U 1 1 60BED6D4
-P 10450 2850
-F 0 "H10" H 10550 2896 50  0000 L CNN
-F 1 "MountingHole" H 10550 2805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 10450 2850 50  0001 C CNN
-F 3 "~" H 10450 2850 50  0001 C CNN
-	1    10450 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 60C46DB4
 P 5000 1750
