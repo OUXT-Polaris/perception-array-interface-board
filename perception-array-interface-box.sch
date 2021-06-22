@@ -20,7 +20,7 @@ P 3250 2600
 F 0 "F2" V 3053 2600 50  0000 C CNN
 F 1 "Mini Blade Fuse 32V 3A" V 3144 2600 50  0000 C CNN
 F 2 "Fuse:RSPRO_1884617_plus_fuse" V 3180 2600 50  0001 C CNN
-F 3 "~" H 3250 2600 50  0001 C CNN
+F 3 "https://docs.rs-online.com/92e6/A700000006779340.pdf" H 3250 2600 50  0001 C CNN
 	1    3250 2600
 	0    1    1    0   
 $EndComp
@@ -382,7 +382,7 @@ P 3250 1500
 F 0 "F1" V 3053 1500 50  0000 C CNN
 F 1 "Mini Blade Fuse 32V 3A" V 3144 1500 50  0000 C CNN
 F 2 "Fuse:RSPRO_1884617_plus_fuse" V 3180 1500 50  0001 C CNN
-F 3 "~" H 3250 1500 50  0001 C CNN
+F 3 "https://docs.rs-online.com/92e6/A700000006779340.pdf" H 3250 1500 50  0001 C CNN
 	1    3250 1500
 	0    1    1    0   
 $EndComp
@@ -520,39 +520,6 @@ F 3 "~" H 6400 4650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H7
-U 1 1 60BECE34
-P 10450 2250
-F 0 "H7" H 10550 2296 50  0000 L CNN
-F 1 "MountingHole" H 10550 2205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 10450 2250 50  0001 C CNN
-F 3 "~" H 10450 2250 50  0001 C CNN
-	1    10450 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
-U 1 1 60BED400
-P 10450 2450
-F 0 "H8" H 10550 2496 50  0000 L CNN
-F 1 "MountingHole" H 10550 2405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 10450 2450 50  0001 C CNN
-F 3 "~" H 10450 2450 50  0001 C CNN
-	1    10450 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H9
-U 1 1 60BED565
-P 10450 2650
-F 0 "H9" H 10550 2696 50  0000 L CNN
-F 1 "MountingHole" H 10550 2605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4" H 10450 2650 50  0001 C CNN
-F 3 "~" H 10450 2650 50  0001 C CNN
-	1    10450 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 60C46DB4
 P 5000 1750
@@ -628,7 +595,7 @@ P 4000 1750
 F 0 "D1" V 3954 1830 50  0000 L CNN
 F 1 "5KP30A-E3/54" V 4045 1830 50  0000 L CNN
 F 2 "Diode_THT:D_P600_R-6_P7.62mm_Vertical_KathodeUp" H 4000 1750 50  0001 C CNN
-F 3 "~" H 4000 1750 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88308/88308.pdf" H 4000 1750 50  0001 C CNN
 	1    4000 1750
 	0    1    1    0   
 $EndComp
@@ -639,7 +606,7 @@ P 4000 2850
 F 0 "D2" V 3954 2930 50  0000 L CNN
 F 1 "5KP30A-E3/54" V 4045 2930 50  0000 L CNN
 F 2 "Diode_THT:D_P600_R-6_P7.62mm_Vertical_KathodeUp" H 4000 2850 50  0001 C CNN
-F 3 "~" H 4000 2850 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88308/88308.pdf" H 4000 2850 50  0001 C CNN
 	1    4000 2850
 	0    1    1    0   
 $EndComp
@@ -1028,7 +995,7 @@ P 3250 3500
 F 0 "F3" V 3053 3500 50  0000 C CNN
 F 1 "Mini Blade Fuse 32V 3A" V 3144 3500 50  0000 C CNN
 F 2 "Fuse:RSPRO_1884617_plus_fuse" V 3180 3500 50  0001 C CNN
-F 3 "~" H 3250 3500 50  0001 C CNN
+F 3 "https://docs.rs-online.com/92e6/A700000006779340.pdf" H 3250 3500 50  0001 C CNN
 	1    3250 3500
 	0    1    1    0   
 $EndComp
@@ -1039,7 +1006,7 @@ P 3250 4000
 F 0 "F4" V 3053 4000 50  0000 C CNN
 F 1 "Mini Blade Fuse 32V 3A" V 3144 4000 50  0000 C CNN
 F 2 "Fuse:RSPRO_1884617_plus_fuse" V 3180 4000 50  0001 C CNN
-F 3 "~" H 3250 4000 50  0001 C CNN
+F 3 "https://docs.rs-online.com/92e6/A700000006779340.pdf" H 3250 4000 50  0001 C CNN
 	1    3250 4000
 	0    1    1    0   
 $EndComp
