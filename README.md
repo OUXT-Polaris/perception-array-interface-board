@@ -1,4 +1,4 @@
-# perception-array-interface-box
+# perception-array-interface-board
 
 ## Overview
 
@@ -20,4 +20,8 @@ https://github.com/alnicomag/kicad-custom-lib
 
 ## PCB rendering image
 
-![Top View](./images/pcb_image_topview_perception-array-interface-box.png)
+![Top View](./images/pcb_image_topview.png)
+
+## Schematics
+
+![Schematics](./images/schematics.png)
