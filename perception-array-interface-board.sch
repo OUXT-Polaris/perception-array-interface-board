@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
+Title "Perception Array Interface Board"
+Date "2021-07-10"
 Rev ""
-Comp ""
+Comp "OUXT Polaris"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -52,7 +52,7 @@ U 1 1 60B47937
 P 6250 1500
 F 0 "U1" H 6250 1742 50  0000 C CNN
 F 1 "K7805-2000R3" H 6250 1651 50  0000 C CNN
-F 2 "SuperRegulator:K78xx-2000R3" H 6250 1725 50  0001 C CIN
+F 2 "SuperRegulator:RSPRO_K78xx-2000R3" H 6250 1725 50  0001 C CIN
 F 3 "https://docs.rs-online.com/fc3c/A700000006631878.pdf" H 6250 1450 50  0001 C CNN
 	1    6250 1500
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 60B48C26
 P 6250 2600
 F 0 "U2" H 6250 2842 50  0000 C CNN
 F 1 "K7812-2000R3L" H 6250 2751 50  0000 C CNN
-F 2 "SuperRegulator:K78xx-2000R3L" H 6250 2825 50  0001 C CIN
+F 2 "SuperRegulator:RSPRO_K78xx-2000R3L" H 6250 2825 50  0001 C CIN
 F 3 "https://docs.rs-online.com/fc3c/A700000006631878.pdf" H 6250 2550 50  0001 C CNN
 	1    6250 2600
 	1    0    0    -1  
@@ -514,7 +514,7 @@ U 1 1 60C91187
 P 6400 4650
 F 0 "J5" H 6450 5667 50  0000 C CNN
 F 1 "2-5530843-7" H 6450 5576 50  0000 C CNN
-F 2 "Connector:TEConnectivity_2-5530843-7" H 6400 4650 50  0001 C CNN
+F 2 "Connector:TE-Connectivity_2-5530843-7" H 6400 4650 50  0001 C CNN
 F 3 "~" H 6400 4650 50  0001 C CNN
 	1    6400 4650
 	-1   0    0    -1  
@@ -673,7 +673,7 @@ U 1 1 60C8DD8E
 P 4900 5150
 F 0 "J4" H 4950 6167 50  0000 C CNN
 F 1 "2-5530843-7" H 4950 6076 50  0000 C CNN
-F 2 "Connector:TEConnectivity_2-5530843-7" H 4900 5150 50  0001 C CNN
+F 2 "Connector:TE-Connectivity_2-5530843-7" H 4900 5150 50  0001 C CNN
 F 3 "~" H 4900 5150 50  0001 C CNN
 	1    4900 5150
 	-1   0    0    -1  
