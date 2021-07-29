@@ -393,8 +393,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 1500 2500 1500
 Connection ~ 2500 1500
-Wire Wire Line
-	4400 4350 4400 4450
 $Comp
 L power:GND #PWR05
 U 1 1 60BF6F4C
@@ -434,17 +432,8 @@ Wire Wire Line
 Connection ~ 4400 4750
 Wire Wire Line
 	4400 4750 4400 4850
-Connection ~ 4400 4650
 Wire Wire Line
 	4400 4650 4400 4750
-Wire Wire Line
-	4600 4550 4400 4550
-Connection ~ 4400 4550
-Wire Wire Line
-	4400 4550 4400 4650
-Connection ~ 4400 4450
-Wire Wire Line
-	4400 4450 4400 4550
 $Comp
 L Connector:8P8C_LED_Shielded J7
 U 1 1 60BDC610
@@ -508,17 +497,6 @@ Wire Wire Line
 Wire Wire Line
 	5200 5050 5200 4000
 Connection ~ 5200 5050
-$Comp
-L Connector_Generic:Conn_02x18_Odd_Even J5
-U 1 1 60C91187
-P 6400 4650
-F 0 "J5" H 6450 5667 50  0000 C CNN
-F 1 "2-5530843-7" H 6450 5576 50  0000 C CNN
-F 2 "Connector:TE-Connectivity_2-5530843-7" H 6400 4650 50  0001 C CNN
-F 3 "~" H 6400 4650 50  0001 C CNN
-	1    6400 4650
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Device:C C1
 U 1 1 60C46DB4
@@ -662,21 +640,17 @@ Connection ~ 4500 5050
 Wire Wire Line
 	4400 4950 4400 5450
 Wire Wire Line
-	4400 4350 4600 4350
-Wire Wire Line
-	4400 4450 4600 4450
-Wire Wire Line
 	4400 4650 4600 4650
 $Comp
 L Connector_Generic:Conn_02x18_Odd_Even J4
 U 1 1 60C8DD8E
-P 4900 5150
-F 0 "J4" H 4950 6167 50  0000 C CNN
-F 1 "2-5530843-7" H 4950 6076 50  0000 C CNN
-F 2 "Connector:TE-Connectivity_2-5530843-7" H 4900 5150 50  0001 C CNN
-F 3 "~" H 4900 5150 50  0001 C CNN
-	1    4900 5150
-	-1   0    0    -1  
+P 4800 5150
+F 0 "J4" H 4850 6167 50  0000 C CNN
+F 1 "2-5530843-7" H 4850 6076 50  0000 C CNN
+F 2 "Connector:TE-Connectivity_2-5530843-7" H 4800 5150 50  0001 C CNN
+F 3 "~" H 4800 5150 50  0001 C CNN
+	1    4800 5150
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4400 4750 4600 4750
@@ -711,18 +685,7 @@ F 3 "" H 5300 6150 50  0001 C CNN
 	1    5300 6150
 	-1   0    0    -1  
 $EndComp
-Connection ~ 5300 6050
-Wire Wire Line
-	5300 6050 5300 6150
-Connection ~ 5300 5950
-Wire Wire Line
-	5300 5950 5300 6050
-Connection ~ 5300 5850
-Wire Wire Line
-	5300 5850 5300 5950
 Connection ~ 5300 5750
-Wire Wire Line
-	5300 5750 5300 5850
 Connection ~ 5300 5650
 Wire Wire Line
 	5300 5650 5300 5750
@@ -772,14 +735,6 @@ Wire Wire Line
 	5300 5650 5100 5650
 Wire Wire Line
 	5300 5750 5100 5750
-Wire Wire Line
-	5300 5850 5100 5850
-Wire Wire Line
-	5300 5950 5100 5950
-Wire Wire Line
-	5300 6050 5100 6050
-Wire Wire Line
-	5900 3850 5900 3950
 $Comp
 L power:GND #PWR011
 U 1 1 60E5094D
@@ -819,17 +774,8 @@ Wire Wire Line
 Connection ~ 5900 4250
 Wire Wire Line
 	5900 4250 5900 4350
-Connection ~ 5900 4150
 Wire Wire Line
 	5900 4150 5900 4250
-Wire Wire Line
-	6100 4050 5900 4050
-Connection ~ 5900 4050
-Wire Wire Line
-	5900 4050 5900 4150
-Connection ~ 5900 3950
-Wire Wire Line
-	5900 3950 5900 4050
 Wire Wire Line
 	6100 4550 6000 4550
 Wire Wire Line
@@ -851,10 +797,6 @@ Wire Wire Line
 Connection ~ 6000 4550
 Wire Wire Line
 	5900 4450 5900 4950
-Wire Wire Line
-	5900 3850 6100 3850
-Wire Wire Line
-	5900 3950 6100 3950
 Wire Wire Line
 	5900 4150 6100 4150
 Wire Wire Line
@@ -893,8 +835,6 @@ Wire Wire Line
 Connection ~ 6700 4650
 Wire Wire Line
 	6700 4650 6700 4750
-Wire Wire Line
-	6700 4550 6700 3500
 Connection ~ 6700 4550
 Wire Wire Line
 	6800 3850 6800 3950
@@ -909,18 +849,7 @@ F 3 "" H 6800 5650 50  0001 C CNN
 	1    6800 5650
 	-1   0    0    -1  
 $EndComp
-Connection ~ 6800 5550
-Wire Wire Line
-	6800 5550 6800 5650
-Connection ~ 6800 5450
-Wire Wire Line
-	6800 5450 6800 5550
-Connection ~ 6800 5350
-Wire Wire Line
-	6800 5350 6800 5450
 Connection ~ 6800 5250
-Wire Wire Line
-	6800 5250 6800 5350
 Connection ~ 6800 5150
 Wire Wire Line
 	6800 5150 6800 5250
@@ -940,8 +869,6 @@ Wire Wire Line
 Connection ~ 6800 4150
 Wire Wire Line
 	6800 4150 6800 4250
-Wire Wire Line
-	6600 4050 6800 4050
 Connection ~ 6800 4050
 Wire Wire Line
 	6800 4050 6800 4150
@@ -950,32 +877,6 @@ Wire Wire Line
 	6800 3950 6800 4050
 Wire Wire Line
 	6800 4450 6800 4950
-Wire Wire Line
-	6800 3850 6600 3850
-Wire Wire Line
-	6800 3950 6600 3950
-Wire Wire Line
-	6800 4150 6600 4150
-Wire Wire Line
-	6800 4250 6600 4250
-Wire Wire Line
-	6800 4350 6600 4350
-Wire Wire Line
-	6800 4450 6600 4450
-Wire Wire Line
-	6800 4950 6600 4950
-Wire Wire Line
-	6800 5050 6600 5050
-Wire Wire Line
-	6800 5150 6600 5150
-Wire Wire Line
-	6800 5250 6600 5250
-Wire Wire Line
-	6800 5350 6600 5350
-Wire Wire Line
-	6800 5450 6600 5450
-Wire Wire Line
-	6800 5550 6600 5550
 Wire Wire Line
 	6000 3500 6700 3500
 Wire Wire Line
@@ -1034,4 +935,55 @@ Wire Wire Line
 Connection ~ 6000 3500
 Wire Wire Line
 	9000 2600 9000 4050
+Wire Wire Line
+	6800 4150 6600 4150
+Wire Wire Line
+	6600 4050 6800 4050
+Wire Wire Line
+	6800 3950 6600 3950
+Wire Wire Line
+	6800 5250 6600 5250
+Wire Wire Line
+	6800 5150 6600 5150
+Wire Wire Line
+	6800 5050 6600 5050
+Wire Wire Line
+	6800 4950 6600 4950
+Wire Wire Line
+	6800 3850 6600 3850
+Wire Wire Line
+	6800 4450 6600 4450
+Wire Wire Line
+	6800 4350 6600 4350
+Wire Wire Line
+	6800 4250 6600 4250
+Wire Wire Line
+	6700 4550 6700 3500
+$Comp
+L Connector_Generic:Conn_02x18_Odd_Even J5
+U 1 1 60C91187
+P 6300 4650
+F 0 "J5" H 6350 5667 50  0000 C CNN
+F 1 "2-5530843-7" H 6350 5576 50  0000 C CNN
+F 2 "Connector:TE-Connectivity_2-5530843-7" H 6300 4650 50  0001 C CNN
+F 3 "~" H 6300 4650 50  0001 C CNN
+	1    6300 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5750 5300 6150
+Wire Wire Line
+	6800 5250 6800 5650
+NoConn ~ 6600 5350
+NoConn ~ 6600 5450
+NoConn ~ 6600 5550
+NoConn ~ 5100 5850
+NoConn ~ 5100 5950
+NoConn ~ 5100 6050
+NoConn ~ 6100 3850
+NoConn ~ 4600 4350
+NoConn ~ 4600 4450
+NoConn ~ 4600 4550
+NoConn ~ 6100 3950
+NoConn ~ 6100 4050
 $EndSCHEMATC
