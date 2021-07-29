@@ -22,6 +22,8 @@ https://github.com/alnicomag/kicad-custom-lib
 
 ![Top View](./images/pcb_image_topview.png)
 
+![Bottom View](./images/pcb_image_bottomview.png)
+
 ## Schematics
 
 ![Schematics](./images/schematics.png)
