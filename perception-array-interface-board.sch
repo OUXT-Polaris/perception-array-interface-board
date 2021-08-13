@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Perception Array Interface Board"
-Date "2021-07-10"
-Rev ""
+Date "2021-08-13"
+Rev "1.0"
 Comp "OUXT Polaris"
 Comment1 ""
 Comment2 ""
@@ -31,7 +31,7 @@ P 1500 1500
 F 0 "J1" H 1418 1275 50  0000 C CNN
 F 1 "PV-3" H 1418 1366 50  0000 C CNN
 F 2 "Terminal:PV-3" H 1500 1500 50  0001 C CNN
-F 3 "~" H 1500 1500 50  0001 C CNN
+F 3 "https://www.mac8sdk.co.jp/uploads/entry_meta/file_value/1597/mac8_2018a_jp-pv-3-4.pdf" H 1500 1500 50  0001 C CNN
 	1    1500 1500
 	-1   0    0    1   
 $EndComp
@@ -42,7 +42,7 @@ P 1500 2200
 F 0 "J3" H 1418 1975 50  0000 C CNN
 F 1 "PV-3" H 1418 2066 50  0000 C CNN
 F 2 "Terminal:PV-3_via" H 1500 2200 50  0001 C CNN
-F 3 "~" H 1500 2200 50  0001 C CNN
+F 3 "https://www.mac8sdk.co.jp/uploads/entry_meta/file_value/1597/mac8_2018a_jp-pv-3-4.pdf" H 1500 2200 50  0001 C CNN
 	1    1500 2200
 	-1   0    0    1   
 $EndComp
@@ -253,7 +253,7 @@ P 9300 3850
 F 0 "J9" H 9218 3225 50  0000 C CNN
 F 1 "1715789" H 9218 3316 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal" H 9300 3850 50  0001 C CNN
-F 3 "~" H 9300 3850 50  0001 C CNN
+F 3 "https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1715789&library=usen&tab=1" H 9300 3850 50  0001 C CNN
 	1    9300 3850
 	1    0    0    1   
 $EndComp
@@ -330,7 +330,7 @@ P 1500 1850
 F 0 "J2" H 1418 1625 50  0000 C CNN
 F 1 "PV-3" H 1418 1716 50  0000 C CNN
 F 2 "Terminal:PV-3" H 1500 1850 50  0001 C CNN
-F 3 "~" H 1500 1850 50  0001 C CNN
+F 3 "https://www.mac8sdk.co.jp/uploads/entry_meta/file_value/1597/mac8_2018a_jp-pv-3-4.pdf" H 1500 1850 50  0001 C CNN
 	1    1500 1850
 	-1   0    0    1   
 $EndComp
@@ -430,7 +430,7 @@ P 8100 3650
 F 0 "J8" H 8100 4317 50  0000 C CNN
 F 1 "RJHSE5381" H 8100 4226 50  0000 C CNN
 F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X" V 8100 3675 50  0001 C CNN
-F 3 "~" V 8100 3675 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/modular-jacks-rjhse5381.html" V 8100 3675 50  0001 C CNN
 	1    8100 3650
 	1    0    0    -1  
 $EndComp
@@ -637,7 +637,7 @@ P 4800 5150
 F 0 "J4" H 4850 6167 50  0000 C CNN
 F 1 "2-5530843-7" H 4850 6076 50  0000 C CNN
 F 2 "Connector:TE-Connectivity_2-5530843-7" H 4800 5150 50  0001 C CNN
-F 3 "~" H 4800 5150 50  0001 C CNN
+F 3 "https://www.te.com/usa-en/product-2-5530843-7.html" H 4800 5150 50  0001 C CNN
 	1    4800 5150
 	1    0    0    -1  
 $EndComp
@@ -955,7 +955,7 @@ P 6300 4650
 F 0 "J5" H 6350 5667 50  0000 C CNN
 F 1 "2-5530843-7" H 6350 5576 50  0000 C CNN
 F 2 "Connector:TE-Connectivity_2-5530843-7" H 6300 4650 50  0001 C CNN
-F 3 "~" H 6300 4650 50  0001 C CNN
+F 3 "https://www.te.com/usa-en/product-2-5530843-7.html" H 6300 4650 50  0001 C CNN
 	1    6300 4650
 	1    0    0    -1  
 $EndComp
